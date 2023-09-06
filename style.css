@@ -1,0 +1,1129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media(max-width:750px){
+    h1{
+        font-size: 25px;
+    }
+}
+.background {
+    background: linear-gradient(to right, rgb(95, 17, 220), rgb(161, 33, 230));
+    width: 100%;
+
+}
+
+/*start hedar*/
+.qwq {
+    position: fixed;
+}
+
+.hedar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(4, 39, 69);*/
+    padding: 10px;
+}
+
+.hedar #drop {
+    display: none;
+}
+
+.hedar label {
+    display: none;
+
+}
+
+.hedar label i {
+    font-size: 30px;
+}
+
+.hedar .logo {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+.hedar a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.hedar .navbar a:hover {
+    color: rgb(119, 76, 21);
+
+}
+#width{
+    width: 130px;
+}
+.hedar .start-free {
+    background: linear-gradient(to right, rgb(115, 51, 218), blue);
+    border-radius: 15px;
+    padding: 2px 10px 2px 0px;
+    position: absolute;
+    z-index: 2;
+}
+.hedar #width .start-free:hover{
+    background: linear-gradient(to right, rgb(0, 180, 84), rgb(152, 4, 137));
+}
+.hedar #width .start-free a:hover{
+    color: #000000;
+}
+@media(max-width:1050px) {
+
+    .hedar {
+        padding: 7px;
+    }
+
+}
+
+@media(max-width:750px) {
+    .hedar .navbar {
+        display: grid;
+        position: absolute;
+        top: 40px;
+        line-height: 2;
+        background-color: rgba(0, 0, 0, 0.521);
+        width: 100%;
+        z-index: 5;
+        right: 0;
+        border: 3px solid gainsboro;
+        border-right: none;
+        border-radius: 10px 0 0 10px;
+        animation-name: square;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes square {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 90px;
+        }
+    }
+
+    .hedar .navbar a {
+        display: block;
+        border-bottom: 3px solid #fff;
+    }
+
+    .hedar .navbar a:hover {
+        border-bottom: 3px solid rgb(119, 76, 21);
+        ;
+    }
+
+    .hedar .navbar {
+        display: none;
+    }
+
+    .hedar label {
+        display: block;
+    }
+
+    #drop:checked~.navbar {
+        display: block;
+    }
+}
+
+/*end hedar*/
+/*start home*/
+.desplay {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px 0 60px;
+}
+
+.revolutionary {
+    display: block;
+    color: #fff;
+    line-height: 30px;
+
+}
+
+.revolutionary h1 {
+    padding-bottom: 20px;
+}
+
+.revolutionary p {
+    padding-bottom: 50px;
+}
+
+.desplay .imgs {
+    position: relative;
+    z-index: 1;
+
+}
+.revolutionary .inbot {
+position: absolute;
+    z-index: 2;
+}
+.revolutionary .inbot a {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, rgb(180, 0, 180), blue);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.revolutionary .inbot a:hover {
+    background: linear-gradient(to right, rgb(0, 180, 84), rgb(152, 4, 137));
+    color: #000000;
+}
+
+.background .bac-home {
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    background-image: url(./img_Ahmed/bg-triangle.png);
+    background-size: cover;
+    right: 0;
+    top: 0px;
+    z-index: 0;
+}
+
+
+.desplay .icon {
+    line-height: 65px;
+    color: blue;
+    position: relative;
+    padding: 20px;
+}
+
+.background .bg-top {
+    margin-top: -350px;
+}
+
+.background .bg-top img {
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+@media(max-width:1050px) {
+    .desplay {
+        margin: 35px 10px 0 40px;
+    }
+
+    .revolutionary {
+        line-height: 25px;
+
+    }
+
+    .revolutionary h1 {
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .revolutionary .inbot a {
+        padding: 7px 15px;
+        font-size: 25px;
+    }
+
+    .background .bac-home {
+        width: 120px;
+        height: 250px;
+    }
+
+
+    .desplay .icon {
+        line-height: 60px;
+    }
+
+    .background .desplay .imgs img {
+        width: 230px;
+    }
+
+}
+
+@media(max-width:750px) {
+    .revolutionary h1 {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .revolutionary p {
+        padding-bottom: 30px;
+    }
+
+    .revolutionary .inbot a {
+        padding: 7px 15px;
+        font-size: 20px;
+    }
+
+    .background .desplay .imgs img {
+        width: 200px;
+    }
+
+    .desplay .icon {
+        padding: 7px;
+    }
+
+    .background .bg-top {
+        margin-top: -230px;
+    }
+}
+
+@media(max-width:600px) {
+    .desplay {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 10px 0 10px;
+    }
+
+    .revolutionary {
+        line-height: 15px;
+height: 350px;
+    }
+
+    .revolutionary h1 {
+        font-size: 15px;
+    }
+
+    .revolutionary p {
+        padding-bottom: 15px;
+        font-size: 10px;
+    }
+
+    .revolutionary .inbot a {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .background .desplay .imgs img {
+        width: 140px;
+    }
+
+    .desplay .icon {
+        line-height: 50px;
+    }
+
+    .desplay .icon i {
+        font-size: 20px;
+    }
+}
+@media(max-width:370px){
+    .background .desplay .imgs img {
+        width: 100px;
+    }
+
+    .desplay .icon {
+        line-height: 35px;
+    }
+}
+/*end home*/
+/*start app*/
+.app {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+
+.app .about-app {
+    display: block;
+    padding: 70px 30px 0 60px;
+    line-height: 30px;
+
+}
+
+.app .about-app .icon {
+    display: flex;
+    margin-top: 26px;
+    justify-content: space-around;
+    margin-left: -130px;
+}
+
+.app .about-app .color {
+    color: rgb(110, 28, 211);
+}
+
+.app .about-app .icon .active,
+.client {
+    display: flex;
+}
+
+.app .about-app .icon .active .acto,
+.app .about-app .icon .client .acto {
+    font-size: 30px;
+    color: rgb(105, 25, 225);
+}
+
+.app .about-app .inpot {
+    width: 130px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, rgb(115, 51, 218), blue);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.app .about-app .inpot:hover {
+    background: linear-gradient(to right, rgb(42, 208, 153), rgb(166, 0, 255));
+    color: #000000;
+}
+
+.app .about-app .inpot a {
+    font-size: 30px;
+    text-decoration: auto;
+    color: #fff;
+}
+
+@media(max-width: 1050px) {
+
+    .app .about-app {
+        display: block;
+        padding: 20px 30px;
+        line-height: 25px;
+
+    }
+
+    .app .about-app .icon {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .app .about-app .icon .active .acto,
+    .app .about-app .icon .client .acto {
+        font-size: 25px;
+        color: rgb(105, 25, 225);
+    }
+
+    .app .about-app .inpot {
+        width: 110px;
+        margin-top: 15px;
+        padding: 7px 15px;
+        font-size: 25px;
+    }
+
+    .app .about-app .inpot a {
+        font-size: 25px;
+    }
+
+    .app .iamge img {
+        width: 400px;
+    }
+}
+
+@media(max-width:750px) {
+    .app {
+        display: grid;
+        margin-top: 140px;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .app .about-app {
+        display: grid;
+        justify-items: center;
+    }
+    .app .about-app h1{
+        font-size: 25px;
+    }
+    .client {
+        padding: 15px;
+    }
+
+    .app .about-app .inpot {
+        margin: 20px 0;
+    }
+}
+
+@media(max-width:500px) {
+    .app .iamge img {
+        width: 250px;
+    }
+}
+
+/*end app*/
+/*start awesome*/
+.awesome {
+    display: block;
+}
+
+.awesome .features h2 {
+    color: rgb(105, 25, 225);
+}
+
+.awesome .features {
+    text-align: center;
+}
+
+.awesome .grop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding-bottom: 50px;
+}
+
+/* .awesome .grop .grop1,
+.grop2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+} */
+
+.awesome .grop .high {
+    width: 220px;
+    height: 200px;
+    background-color: rgb(223, 223, 255);
+    padding: 10px;
+    line-height: 25px;
+}
+
+.awesome .grop i {
+    background: linear-gradient(to right, rgb(115, 51, 218), blue);
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 30px;
+}
+
+@media(max-width:1050px) {
+
+    .awesome .grop {
+        height: 560px;
+    }
+
+    .awesome .grop .grop1,
+    .grop2 {
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width:750px) {
+    .awesome .grop {
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding: 20px 0 50px;
+    }
+
+    .awesome .grop .high {
+        margin: 7px 0;
+    }
+}
+
+@media(max-width:550px) {
+    .awesome .grop {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .awesome .grop .high {
+        margin: 7px 0;
+    }
+
+}
+
+/*end awesome*/
+/*start screenshot */
+.screenshot {
+    display: flex;
+}
+
+.screenshot .user {
+    padding: 0 50px 0 60px;
+}
+
+.screenshot .user p i {
+    color: blue;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.screenshot .user .color {
+    color: blue;
+}
+
+.screenshot .user .inbot {
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(115, 51, 218), rgb(47, 47, 239));
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.screenshot .user .inbot:hover {
+    background: linear-gradient(to right, rgb(63, 0, 180), rgb(115, 51, 218));
+    color: #000000;
+}
+
+.screenshot .user .inbot a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.screenshot .icon {
+    line-height: 65px;
+    color: blue;
+    position: relative;
+    margin: 20px;
+}
+
+@media(max-width:1050px) {
+
+    .screenshot .user {
+        padding: 0 40px 0 50px;
+    }
+
+    .screenshot .iamge img {
+        width: 230px;
+    }
+
+    .screenshot .user .inbot {
+        width: 110px;
+        height: 30px;
+        padding: 7px 15px;
+        border-radius: 50px;
+        font-size: 25px;
+    }
+
+    .screenshot .icon {
+        line-height: 60px;
+        margin: 15px;
+    }
+}
+
+@media(max-width:750px) {
+    .screenshot {
+        height: 450px;
+    }
+
+    .screenshot .user {
+        background-color: #000000a6;
+        position: absolute;
+        z-index: 3;
+        color: #ffffff;
+        padding: 0 20px 0 20px;
+        height: 395px;
+    }
+
+    .screenshot .iamge img {
+        width: 200px;
+        position: absolute;
+        right: 64px;
+    }
+
+    .screenshot .icon {
+        position: absolute;
+        right: 0;
+    }
+
+    .screenshot .user h1 {
+        font-size: 20px;
+    }
+}
+
+/*end screenshot*/
+/*start easy*/
+.easy {
+    display: block;
+}
+
+.easy .steps {
+    text-align: center;
+}
+
+.easy .steps p {
+    color: blue;
+}
+
+.easy .grop {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.easy .grop .install {
+    width: 220px;
+    height: 200px;
+    background-color: rgb(223, 223, 255);
+    border: 16px solid rgb(223, 223, 255);
+    line-height: 25px;
+    text-align: center;
+}
+
+.easy .grop .install i {
+    background-color: blue;
+    color: #fff;
+    font-size: 50px;
+    margin: -55px 0 20px 0;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+@media(max-width:1050px) {
+
+    .easy .grop {
+        margin-top: 35px;
+    }
+
+}
+
+@media(max-width:750px) {
+    .easy .grop {
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .easy .grop .install {
+        width: 260px;
+        border: 30px solid rgb(255 255 255);
+        padding: 5px;
+    }
+
+}
+
+/*end easy*/
+/*start dowload*/
+.download {
+    display: flex;
+    margin-top: 100px;
+}
+
+.download .our-app {
+    display: block;
+    padding: 100px 30px 0 100px;
+    line-height: 35px;
+}
+
+.download .img img {
+    width: 500px;
+}
+
+.download .our-app .colo {
+    color: blue;
+}
+
+.download .our-app .grop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.download .our-app .grop .app-store {
+    width: 200px;
+    height: 70px;
+    background: linear-gradient(to right, rgb(115, 51, 218), blue);
+    border-radius: 10px;
+    display: flex;
+}
+
+.download .our-app .grop .app-store>div {
+    color: #fff;
+}
+
+.download .our-app .grop .app-store i {
+    color: #fff;
+    font-size: 50px;
+    padding: 10px 10px 0 10px;
+}
+
+@media(max-width:1050px) {
+    .download {
+        display: grid;
+        margin-top: 100px;
+        justify-items: center;
+    }
+
+    .download .our-app {
+        padding: 90px;
+        line-height: 30px;
+    }
+
+    .download .img img {
+        width: 500px;
+    }
+
+}
+
+@media(max-width:750px) {
+    .download .img img {
+        width: 400px;
+    }
+
+    .download .our-app {
+        padding: 20px;
+    }
+}
+
+@media(max-width:500px) {
+    .download .our-app .grop {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .download .img img {
+        width: 250px;
+    }
+}
+
+/*end dowload*/
+/*start pricing*/
+.choose {
+    display: block;
+}
+
+.choose .pricing {
+    text-align: center;
+}
+
+.choose .pricing h4 {
+    color: blue;
+}
+
+.choose .pricing .inpot .whi {
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(115, 51, 218), blue);
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 30px 0 0 30px;
+
+}
+
+.choose .pricing .inpot .whi:hover {
+    background-color: #e4e4e4;
+    color: #000000;
+}
+
+.choose .pricing .inpot .bla {
+    text-decoration: none;
+    background-color: #e4e4e4;
+    color: #000000;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 0 30px 30px 0;
+    margin-left: -13px
+}
+
+.choose .pricing .inpot .bla:hover {
+    background: linear-gradient(to right, rgb(115, 51, 218), blue);
+    color: #fff;
+}
+
+.choose .grop {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.choose .grop .starter {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 214, 221);
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+.choose .grop .starter ul li {
+    list-style: none;
+}
+
+.choose .grop .starter a {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, rgb(115, 51, 218), blue);
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media(max-width:750px) {
+    .choose .grop {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        text-align: center;
+    }
+
+    .choose .grop .starter {
+        margin: 20px 0;
+    }
+
+}
+
+/*end pricing*/
+/*start testimonial*/
+.testimonial {
+    display: block;
+    margin: 100px 50px 0 50px;
+}
+
+.testimonial .clients {
+    text-align: center;
+}
+
+.testimonial .mother-grop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+
+.testimonial .mother-grop>div {
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.testimonial .mother-grop .grop .grop1 .name,
+.grop-color .grop1 .name {
+    margin-left: 10px;
+}
+
+.testimonial .mother-grop .grop-color {
+    background: linear-gradient(to right, rgb(115, 51, 218), blue);
+}
+
+.testimonial .mother-grop>div .grop1 {
+    display: flex;
+}
+
+.testimonial .mother-grop>div .grop1 .name .star {
+    display: flex;
+    color: rgb(225, 255, 0);
+}
+
+.testimonial .circle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.testimonial .circle div {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+@media(max-width:1050px) {
+    .testimonial {
+        margin: 90px 40px 0 40px;
+    }
+
+    .testimonial .mother-grop>div {
+        width: 235px;
+        height: 180px;
+        margin: 10px 0;
+    }
+
+    .testimonial .circle div {
+        width: 35px;
+        height: 35px;
+        background-color: blue;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    .testimonial .mother-grop>div>div .img img {
+        width: 80px;
+    }
+}
+
+@media(max-width:750px) {
+    .testimonial .mother-grop {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
+
+/*end testimonial*/
+/*start contact*/
+.contact {
+    margin-top: 50px;
+}
+
+.contact .get {
+    text-align: center;
+}
+
+.contact .get p,
+.contact .form form .tex span {
+    color: #3b0de0;
+}
+
+.contact .form form .tex {
+    text-align: center;
+    width: 500px;
+}
+
+.contact .form form {
+    display: grid;
+    justify-content: center;
+}
+
+.contact .form form .grop-input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact .form form .grop-input input {
+    margin: 10px 5px;
+}
+
+.contact .form form .submit {
+    width: 150px;
+    border-radius: 50px;
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(115, 51, 218), rgb(48, 48, 231));
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contact .form form .submit:hover {
+    background: linear-gradient(to right, rgb(79, 51, 218), rgb(222, 48, 231));
+    color: #000000;
+}
+
+@media(max-width:750px) {
+    .contact {
+        padding: 0 50px;
+    }
+
+    .contact .form form {
+        display: grid;
+        justify-items: center;
+    }
+
+    .contact .form form .tex {
+        width: auto;
+    }
+
+    .contact .form form .grop-input {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* .contact .form form .grop{
+    display: block;
+} */
+}
+
+/*end contact*/
+
+/*start final*/
+.bac-final {
+    background: linear-gradient(to right, rgb(115, 51, 218), rgb(48, 48, 231));
+    position: relative;
+    z-index: 0;
+}
+
+.bac-final .img-bac {
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    background-image: url(./img_Ahmed/bg-circle.png);
+    background-size: cover;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+
+}
+
+.bac-final .final {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+    color: #fff;
+    line-height: 40px;
+    padding: 20px 70px;
+}
+
+.bac-final .final>div {
+    margin-top: -60px;
+    z-index: 2;
+}
+
+.bac-final .final>div p i {
+    color: #fff;
+}
+
+.bac-final .final .address .ico {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.bac-final .final .address .ico i:hover {
+    color: aqua;
+}
+
+.bac-final .bg-to {
+    width: 100%;
+    margin-top: -4px;
+}
+
+@media(max-width:750px) {
+    .bac-final .final {
+        grid-template-columns: repeat(2, 1fr);
+        color: #fff;
+        line-height: 25px;
+        padding: 0px 20px;
+    }
+
+    .bac-final .final>div {
+        margin-top: 10px;
+    }
+}
+
+/*end final*/
+.bac-final .final .img-tr {
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    background-image: url(./img_Ahmed/bg-triangle.png);
+    background-size: cover;
+    right: 0;
+    bottom: 0px;
+
+}
+
+/*end*/
+.end {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    height: 50px;
+
+}
+
+.end .left {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.end span {
+    text-decoration: underline;
+}
+
+@media(max-width:700px) {
+    .end .left {
+        display: none;
+
+    }
+}
