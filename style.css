@@ -57,7 +57,7 @@
 
 }
 #width{
-    width: 130px;
+    width: 75px;
 }
 .hedar .start-free {
     background: linear-gradient(to right, rgb(115, 51, 218), blue);
@@ -69,6 +69,7 @@
 .hedar #width .start-free:hover{
     background: linear-gradient(to right, rgb(0, 180, 84), rgb(152, 4, 137));
 }
+
 .hedar #width .start-free a:hover{
     color: #000000;
 }
@@ -107,7 +108,9 @@
             width: 90px;
         }
     }
-
+    .hedar #width .start-free a{
+        font-size: 10px;
+    }
     .hedar .navbar a {
         display: block;
         border-bottom: 3px solid #fff;
@@ -401,11 +404,11 @@ height: 350px;
         width: 110px;
         margin-top: 15px;
         padding: 7px 15px;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .app .about-app .inpot a {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .app .iamge img {
@@ -434,6 +437,7 @@ height: 350px;
 
     .app .about-app .inpot {
         margin: 20px 0;
+        padding: 6px 0px;
     }
 }
 
@@ -543,7 +547,9 @@ height: 350px;
 .screenshot .user .color {
     color: blue;
 }
-
+.screenshot .user p{
+    padding: 10px;
+}
 .screenshot .user .inbot {
     width: 120px;
     height: 40px;
@@ -551,7 +557,6 @@ height: 350px;
     background: linear-gradient(to right, rgb(115, 51, 218), rgb(47, 47, 239));
     padding: 10px 20px;
     border-radius: 50px;
-    font-size: 30px;
     cursor: pointer;
 }
 
@@ -610,7 +615,19 @@ height: 350px;
         padding: 0 20px 0 20px;
         height: 395px;
     }
-
+    .screenshot .user p{
+        padding: 7px;
+    }
+    .screenshot .user .inbot {
+        width: 90px;
+        height: auto;
+        padding: 0px 0 10px 20px;
+        border-radius: 50px;
+    }
+    .screenshot .user .inbot a {
+  
+        font-size:15px;
+    }
     .screenshot .iamge img {
         width: 200px;
         position: absolute;
